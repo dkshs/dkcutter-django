@@ -28,6 +28,6 @@ drf-spectacular==0.27.2  # https://github.com/tfranzel/drf-spectacular
 {%- elif dkcutter.restFramework == 'DNRF' %}
 # Django Ninja REST framework
 django-ninja==1.2.0  # https://github.com/vitalik/django-ninja
-orjson==3.10.5  # https://github.com/ijl/orjson
+orjson==3.10.6  # https://github.com/ijl/orjson
 django-cors-headers==4.4.0  # https://github.com/adamchainz/django-cors-headers
 {%- endif %}
