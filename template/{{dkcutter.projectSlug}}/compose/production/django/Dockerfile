@@ -1,5 +1,5 @@
 {% if dkcutter.useTailwindcss -%}
-FROM docker.io/node:20-bookworm-slim AS client-builder
+FROM docker.io/node:22-bookworm-slim AS client-builder
 
 ARG APP_HOME=/app
 WORKDIR ${APP_HOME}
